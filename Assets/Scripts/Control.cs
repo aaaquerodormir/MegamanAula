@@ -4,16 +4,20 @@ using UnityEngine;
 
 public class Control : MonoBehaviour
 {
+    private const double V = 2.5;
     public Animator anima; // Referência ao Animator do personagem.
     float xmov; // Variável para guardar o movimento horizontal.
     public Rigidbody2D rdb; // Referência ao Rigidbody2D do personagem.
     bool jump, doublejump; // Flags para controle de pulo e pulo duplo.
     float jumptime, jumptimeside; // Controla a duração dos pulos.
     public ParticleSystem fire; // Sistema de partículas para o efeito de fogo.
+    public int maxHp = 100; // HP total máximo do jogador.
+    private int currentHp;   // HP atual do jogador.
+
 
     void Start()
     {
-        // Método para inicializações. Não está sendo utilizado neste código.
+        currentHp = maxHp;
     }
 
     void Update()
@@ -24,7 +28,7 @@ public class Control : MonoBehaviour
         // Verifica se o botão de pulo foi pressionado e controla o pulo duplo.
         if (Input.GetButtonDown("Jump"))
         {
-            if (jumptime < 0.1f)
+            if (jumptime < 3f)
             {
                 doublejump = true;
             }
@@ -39,7 +43,7 @@ public class Control : MonoBehaviour
         {
             jump = false;
             doublejump = false;
-            jumptime = 0;
+            jumptime = 2;
             jumptimeside = 0;
         }
 
@@ -60,7 +64,7 @@ public class Control : MonoBehaviour
         anima.SetFloat("Velocity", Mathf.Abs(xmov)); // Define a velocidade no Animator.
 
         // Adiciona uma força para mover o personagem.
-        rdb.AddForce(new Vector2(xmov * 20 / (rdb.velocity.magnitude + 1), 0));
+        rdb.AddForce(new Vector2(xmov * 50 / (rdb.velocity.magnitude + 1), 0));
 
         RaycastHit2D hit;
 
@@ -90,9 +94,9 @@ public class Control : MonoBehaviour
     private void JumpRoutine(RaycastHit2D hit)
     {
         // Verifica a distância do chão e aplica uma força de pulo se necessário.
-        if (hit.distance < 0.1f)
+        if (hit.distance < 0.01f)
         {
-            jumptime = 1;
+            jumptime = 2.6f;
         }
 
         if (jump)
