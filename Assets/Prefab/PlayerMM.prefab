@@ -9854,7 +9854,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 576
   moveSpeed: 3
-  jumpForce: 6
+  jumpForce: 7
 --- !u!61 &291198178
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9895,4 +9895,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   anima: {fileID: 95318738018095452}
   rdb: {fileID: 50516375948837600}
-  fire: {fileID: 0}
+  fire: {fileID: 198728478396322416}

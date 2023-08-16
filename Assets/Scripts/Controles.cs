@@ -42,7 +42,7 @@ public class Controles : MonoBehaviour
         //    jumptime = 0;
         //    jumptimeside = 0;
         //}
-        anima.SetBool("Fire", false);
+        anima.SetBool("Fire", false );
 
 
 
@@ -88,7 +88,7 @@ public class Controles : MonoBehaviour
         {
             if (hitright.distance < 0.3f)
             {
-                 //JumpRoutineSide(hitright);
+                //JumpRoutineSide(hitright);
             }
             Debug.DrawLine(hitright.point, transform.position
                 + Vector3.up * 0.5f);

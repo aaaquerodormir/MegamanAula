@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Barrel : MonoBehaviour {
     public int lives = 5;
-    public ParticleSystem smoke;
+    //public ParticleSystem smoke;
     public ParticleSystem explosion;
     Renderer rend;
     // Use this for initialization
@@ -21,10 +21,10 @@ public class Barrel : MonoBehaviour {
     private void OnParticleCollision(GameObject other)
     {
         lives--;
-        if (lives < 3)
-        {
-            smoke.Play();
-        }
+        //if (lives < 3)
+        //{
+        //    smoke.Play();
+        //}
 
             if (lives < 1)
         {
