@@ -1,46 +1,7 @@
 fileFormatVersion: 2
-guid: 379d8652c8e4f0b4486ed30a61687cc9
+guid: 036b44a7d696c874cb5243b865846d31
 TextureImporter:
-  internalIDToNameTable:
-  - first:
-      213: 21300000
-    second: mega_man_x1_vehicles_in_32_bits_by_irregularsaturn-dai9a38_0
-  - first:
-      213: 21300002
-    second: mega_man_x1_vehicles_in_32_bits_by_irregularsaturn-dai9a38_1
-  - first:
-      213: 21300004
-    second: mega_man_x1_vehicles_in_32_bits_by_irregularsaturn-dai9a38_2
-  - first:
-      213: 21300006
-    second: mega_man_x1_vehicles_in_32_bits_by_irregularsaturn-dai9a38_3
-  - first:
-      213: 21300008
-    second: mega_man_x1_vehicles_in_32_bits_by_irregularsaturn-dai9a38_4
-  - first:
-      213: 21300010
-    second: mega_man_x1_vehicles_in_32_bits_by_irregularsaturn-dai9a38_5
-  - first:
-      213: 21300012
-    second: mega_man_x1_vehicles_in_32_bits_by_irregularsaturn-dai9a38_6
-  - first:
-      213: 21300014
-    second: mega_man_x1_vehicles_in_32_bits_by_irregularsaturn-dai9a38_7
-  - first:
-      213: 21300016
-    second: mega_man_x1_vehicles_in_32_bits_by_irregularsaturn-dai9a38_8
-  - first:
-      213: 21300018
-    second: mega_man_x1_vehicles_in_32_bits_by_irregularsaturn-dai9a38_9
-  - first:
-      213: 21300020
-    second: mega_man_x1_vehicles_in_32_bits_by_irregularsaturn-dai9a38_10
-  - first:
-      213: 21300022
-    second: mega_man_x1_vehicles_in_32_bits_by_irregularsaturn-dai9a38_11
-  - first:
-      213: 21300024
-    second: mega_man_x1_vehicles_in_32_bits_by_irregularsaturn-dai9a38_12
+  internalIDToNameTable: []
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -86,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 50
+  spritePixelsToUnits: 64
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -101,21 +62,21 @@ TextureImporter:
   compressionQualitySet: 0
   textureFormatSet: 0
   ignorePngGamma: 0
-  applyGammaDecoding: 1
-  cookieLightType: 1
+  applyGammaDecoding: 0
+  cookieLightType: 0
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 1
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Standalone
     maxTextureSize: 2048
@@ -127,7 +88,7 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 1
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Server
     maxTextureSize: 2048
@@ -139,279 +100,342 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 1
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: mega_man_x1_vehicles_in_32_bits_by_irregularsaturn-dai9a38_0
+      name: MicrosoftTeams-image (2)_0
       rect:
         serializedVersion: 2
-        x: 14
-        y: 284
-        width: 103
-        height: 54
+        x: 0
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 02305410000000000800000000000000
-      internalID: 21300000
+      spriteID: 8f10cddc05ebe3b41bc65344862a0493
+      internalID: -1396164563
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mega_man_x1_vehicles_in_32_bits_by_irregularsaturn-dai9a38_1
+      name: MicrosoftTeams-image (2)_1
       rect:
         serializedVersion: 2
-        x: 130
-        y: 284
-        width: 103
-        height: 54
+        x: 128
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 22305410000000000800000000000000
-      internalID: 21300002
+      spriteID: 1df1afd28b285b0499b1b1bc07465925
+      internalID: 1005219176
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mega_man_x1_vehicles_in_32_bits_by_irregularsaturn-dai9a38_2
+      name: MicrosoftTeams-image (2)_2
       rect:
         serializedVersion: 2
-        x: 247
-        y: 286
-        width: 103
-        height: 54
+        x: 256
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 42305410000000000800000000000000
-      internalID: 21300004
+      spriteID: acd117c5c4fdd0e479a1f63960dd7a16
+      internalID: 1588673067
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mega_man_x1_vehicles_in_32_bits_by_irregularsaturn-dai9a38_3
+      name: MicrosoftTeams-image (2)_3
       rect:
         serializedVersion: 2
-        x: 388
-        y: 321
-        width: 18
-        height: 19
+        x: 384
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 62305410000000000800000000000000
-      internalID: 21300006
+      spriteID: 42ee42b8d97b7d84d9bc97d7181c7541
+      internalID: 1707347209
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mega_man_x1_vehicles_in_32_bits_by_irregularsaturn-dai9a38_4
+      name: MicrosoftTeams-image (2)_4
       rect:
         serializedVersion: 2
-        x: 435
-        y: 321
-        width: 19
-        height: 19
+        x: 512
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 82305410000000000800000000000000
-      internalID: 21300008
+      spriteID: d451d301b04bd674aabb30d3d0922cf7
+      internalID: 533339421
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mega_man_x1_vehicles_in_32_bits_by_irregularsaturn-dai9a38_5
+      name: MicrosoftTeams-image (2)_5
       rect:
         serializedVersion: 2
-        x: 14
-        y: 194
-        width: 151
-        height: 68
+        x: 640
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a2305410000000000800000000000000
-      internalID: 21300010
+      spriteID: b75fe4b5523715542be0fdd0f41f16ab
+      internalID: 1176005039
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mega_man_x1_vehicles_in_32_bits_by_irregularsaturn-dai9a38_6
+      name: MicrosoftTeams-image (2)_6
       rect:
         serializedVersion: 2
-        x: 181
-        y: 194
-        width: 151
-        height: 68
+        x: 768
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c2305410000000000800000000000000
-      internalID: 21300012
+      spriteID: 0b4397cf5619c754db3f488a99ebcb83
+      internalID: 1858582309
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mega_man_x1_vehicles_in_32_bits_by_irregularsaturn-dai9a38_7
+      name: MicrosoftTeams-image (2)_7
       rect:
         serializedVersion: 2
-        x: 347
-        y: 196
-        width: 151
-        height: 68
+        x: 896
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e2305410000000000800000000000000
-      internalID: 21300014
+      spriteID: e6c0be07ac924104e9c31151fcda3223
+      internalID: 1071274821
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mega_man_x1_vehicles_in_32_bits_by_irregularsaturn-dai9a38_8
+      name: MicrosoftTeams-image (2)_8
       rect:
         serializedVersion: 2
-        x: 17
-        y: 128
-        width: 110
-        height: 48
+        x: 1024
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 03305410000000000800000000000000
-      internalID: 21300016
+      spriteID: 0935e23dc5a0a8440a7b17ac97708d43
+      internalID: -163015307
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mega_man_x1_vehicles_in_32_bits_by_irregularsaturn-dai9a38_9
+      name: MicrosoftTeams-image (2)_9
       rect:
         serializedVersion: 2
-        x: 135
-        y: 128
-        width: 110
-        height: 48
+        x: 1152
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 23305410000000000800000000000000
-      internalID: 21300018
+      spriteID: 81dece076af742042bfd69ee8ebbba31
+      internalID: 548322252
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mega_man_x1_vehicles_in_32_bits_by_irregularsaturn-dai9a38_10
+      name: MicrosoftTeams-image (2)_10
       rect:
         serializedVersion: 2
-        x: 258
-        y: 128
-        width: 110
-        height: 48
+        x: 1280
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 43305410000000000800000000000000
-      internalID: 21300020
+      spriteID: 8d9273d052e374e40b642a342a365898
+      internalID: -1324736169
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mega_man_x1_vehicles_in_32_bits_by_irregularsaturn-dai9a38_11
+      name: MicrosoftTeams-image (2)_11
       rect:
         serializedVersion: 2
-        x: 37
-        y: 14
-        width: 181
-        height: 82
+        x: 1408
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 63305410000000000800000000000000
-      internalID: 21300022
+      spriteID: d457fe2e27af7b24c9a1f0e77fef053b
+      internalID: -1934712304
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mega_man_x1_vehicles_in_32_bits_by_irregularsaturn-dai9a38_12
+      name: MicrosoftTeams-image (2)_12
       rect:
         serializedVersion: 2
-        x: 300
-        y: 12
-        width: 154
-        height: 83
+        x: 1536
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 83305410000000000800000000000000
-      internalID: 21300024
+      spriteID: c263584da4adc6b478b6280b96ab78a4
+      internalID: -1674082612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MicrosoftTeams-image (2)_13
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78f8c5315995b384289390211dc78a98
+      internalID: 2120526773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MicrosoftTeams-image (2)_14
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3997cb7ddaadd1d43922d80d50b4705b
+      internalID: 950298504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MicrosoftTeams-image (2)_15
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0675e33d66e19524f963c4b11b4d5901
+      internalID: -1152439508
       vertices: []
       indices: 
       edges: []
@@ -419,7 +443,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -427,22 +451,25 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      mega_man_x1_vehicles_in_32_bits_by_irregularsaturn-dai9a38_11: 21300022
-      mega_man_x1_vehicles_in_32_bits_by_irregularsaturn-dai9a38_5: 21300010
-      mega_man_x1_vehicles_in_32_bits_by_irregularsaturn-dai9a38_7: 21300014
-      mega_man_x1_vehicles_in_32_bits_by_irregularsaturn-dai9a38_12: 21300024
-      mega_man_x1_vehicles_in_32_bits_by_irregularsaturn-dai9a38_6: 21300012
-      mega_man_x1_vehicles_in_32_bits_by_irregularsaturn-dai9a38_8: 21300016
-      mega_man_x1_vehicles_in_32_bits_by_irregularsaturn-dai9a38_0: 21300000
-      mega_man_x1_vehicles_in_32_bits_by_irregularsaturn-dai9a38_4: 21300008
-      mega_man_x1_vehicles_in_32_bits_by_irregularsaturn-dai9a38_2: 21300004
-      mega_man_x1_vehicles_in_32_bits_by_irregularsaturn-dai9a38_10: 21300020
-      mega_man_x1_vehicles_in_32_bits_by_irregularsaturn-dai9a38_1: 21300002
-      mega_man_x1_vehicles_in_32_bits_by_irregularsaturn-dai9a38_3: 21300006
-      mega_man_x1_vehicles_in_32_bits_by_irregularsaturn-dai9a38_9: 21300018
+      MicrosoftTeams-image (2)_0: -1396164563
+      MicrosoftTeams-image (2)_2: 1588673067
+      MicrosoftTeams-image (2)_4: 533339421
+      MicrosoftTeams-image (2)_15: -1152439508
+      MicrosoftTeams-image (2)_6: 1858582309
+      MicrosoftTeams-image (2)_8: -163015307
+      MicrosoftTeams-image (2)_3: 1707347209
+      MicrosoftTeams-image (2)_12: -1674082612
+      MicrosoftTeams-image (2)_9: 548322252
+      MicrosoftTeams-image (2)_7: 1071274821
+      MicrosoftTeams-image (2)_10: -1324736169
+      MicrosoftTeams-image (2)_13: 2120526773
+      MicrosoftTeams-image (2)_11: -1934712304
+      MicrosoftTeams-image (2)_14: 950298504
+      MicrosoftTeams-image (2)_5: 1176005039
+      MicrosoftTeams-image (2)_1: 1005219176
   spritePackingTag: 
-  pSDRemoveMatte: 1
-  pSDShowRemoveMatteOption: 1
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
