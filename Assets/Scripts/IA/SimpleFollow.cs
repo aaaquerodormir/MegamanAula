@@ -38,4 +38,12 @@ public class SimpleFollow : MonoBehaviour
             target = null;
         }
     }
+
+    private void OnCollisionEnter2D(Collision2D other)
+    {
+        if (other.gameObject.CompareTag("Player"))
+        {
+            LevelManager.instance.LowDamage(); // Aplica dano ao jogador
+        }
+    }
 }
