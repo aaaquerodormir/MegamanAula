@@ -21,10 +21,10 @@ public class Barrel : MonoBehaviour {
     private void OnParticleCollision(GameObject other)
     {
         lives--;
-        //if (lives < 3)
-        //{
-        //    smoke.Play();
-        //}
+        if (lives < 3)
+        {
+            //smoke.Play();
+        }
 
             if (lives < 1)
         {

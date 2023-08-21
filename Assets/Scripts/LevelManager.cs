@@ -35,7 +35,7 @@ public class LevelManager : MonoBehaviour {
     /// <summary>
     /// Aplica pouco dano
     /// </summary>
-    public void LowDamage()
+    public void LowDamage() 
     {
         life -= 0.1f;
         life = Mathf.Clamp01(life);
